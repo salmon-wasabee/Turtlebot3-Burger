@@ -1,0 +1,24 @@
+[1.759s] Invoking command in '/home/ngo/ros2_ws/src/action_tutorials_py': CMAKE_PREFIX_PATH=/home/ngo/ros2_ws/install/action_tutorials_interfaces:/home/ngo/ros2_ws/install/turtlesim:/home/ngo/ros2_ws/install/my_interfaces:/home/ngo/turtlebot3_ws/install/turtlebot3_simulations:/home/ngo/turtlebot3_ws/install/turtlebot3_gazebo:/home/ngo/turtlebot3_ws/install/turtlebot3_fake_node LD_LIBRARY_PATH=/home/ngo/ros2_ws/install/action_tutorials_interfaces/lib:/home/ngo/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ngo/ros2_ws/build/action_tutorials_py/prefix_override:/home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_tutorials_py build --build-base /home/ngo/ros2_ws/build/action_tutorials_py/build install --record /home/ngo/ros2_ws/build/action_tutorials_py/install.log --single-version-externally-managed
+[2.035s] running egg_info
+[2.036s] writing ../../build/action_tutorials_py/action_tutorials_py.egg-info/PKG-INFO
+[2.036s] writing dependency_links to ../../build/action_tutorials_py/action_tutorials_py.egg-info/dependency_links.txt
+[2.036s] writing entry points to ../../build/action_tutorials_py/action_tutorials_py.egg-info/entry_points.txt
+[2.036s] writing requirements to ../../build/action_tutorials_py/action_tutorials_py.egg-info/requires.txt
+[2.036s] writing top-level names to ../../build/action_tutorials_py/action_tutorials_py.egg-info/top_level.txt
+[2.039s] reading manifest file '../../build/action_tutorials_py/action_tutorials_py.egg-info/SOURCES.txt'
+[2.040s] writing manifest file '../../build/action_tutorials_py/action_tutorials_py.egg-info/SOURCES.txt'
+[2.040s] running build
+[2.040s] running build_py
+[2.041s] running install
+[2.041s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.041s]   warnings.warn(
+[2.041s] running install_lib
+[2.043s] running install_data
+[2.044s] running install_egg_info
+[2.047s] removing '/home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py-0.32.0-py3.10.egg-info' (and everything under it)
+[2.047s] Copying ../../build/action_tutorials_py/action_tutorials_py.egg-info to /home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py-0.32.0-py3.10.egg-info
+[2.048s] running install_scripts
+[2.075s] Installing fibonacci_action_client script to /home/ngo/ros2_ws/install/action_tutorials_py/lib/action_tutorials_py
+[2.075s] Installing fibonacci_action_server script to /home/ngo/ros2_ws/install/action_tutorials_py/lib/action_tutorials_py
+[2.075s] writing list of installed files to '/home/ngo/ros2_ws/build/action_tutorials_py/install.log'
+[2.106s] Invoked command in '/home/ngo/ros2_ws/src/action_tutorials_py' returned '0': CMAKE_PREFIX_PATH=/home/ngo/ros2_ws/install/action_tutorials_interfaces:/home/ngo/ros2_ws/install/turtlesim:/home/ngo/ros2_ws/install/my_interfaces:/home/ngo/turtlebot3_ws/install/turtlebot3_simulations:/home/ngo/turtlebot3_ws/install/turtlebot3_gazebo:/home/ngo/turtlebot3_ws/install/turtlebot3_fake_node LD_LIBRARY_PATH=/home/ngo/ros2_ws/install/action_tutorials_interfaces/lib:/home/ngo/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ngo/ros2_ws/build/action_tutorials_py/prefix_override:/home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_tutorials_py build --build-base /home/ngo/ros2_ws/build/action_tutorials_py/build install --record /home/ngo/ros2_ws/build/action_tutorials_py/install.log --single-version-externally-managed

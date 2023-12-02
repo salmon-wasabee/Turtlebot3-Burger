@@ -1,0 +1,50 @@
+[0.885s] Invoking command in '/home/ngo/ros2_ws/src/learning_tf2_py': AMENT_PREFIX_PATH=/home/ngo/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngo/ros2_ws/install/turtlesim:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ngo/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngo/ros2_ws/build/learning_tf2_py/prefix_override:/home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/ngo/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/ngo/ros2_ws/build/learning_tf2_py/build install --record /home/ngo/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed
+[1.164s] running egg_info
+[1.165s] creating ../../build/learning_tf2_py/learning_tf2_py.egg-info
+[1.165s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[1.166s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[1.166s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[1.166s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[1.166s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[1.166s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[1.168s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[1.169s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[1.169s] running build
+[1.169s] running build_py
+[1.169s] creating /home/ngo/ros2_ws/build/learning_tf2_py/build
+[1.169s] creating /home/ngo/ros2_ws/build/learning_tf2_py/build/lib
+[1.169s] creating /home/ngo/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.169s] copying learning_tf2_py/turtle_tf2_broadcaster.py -> /home/ngo/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.180s] copying learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/ngo/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.180s] copying learning_tf2_py/turtle_tf2_listener.py -> /home/ngo/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.180s] copying learning_tf2_py/__init__.py -> /home/ngo/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.181s] running install
+[1.181s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.181s]   warnings.warn(
+[1.181s] running install_lib
+[1.183s] creating /home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.183s] copying /home/ngo/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_broadcaster.py -> /home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.183s] copying /home/ngo/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.183s] copying /home/ngo/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_listener.py -> /home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.184s] copying /home/ngo/ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/__init__.py -> /home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.184s] byte-compiling /home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+[1.185s] byte-compiling /home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-310.pyc
+[1.185s] byte-compiling /home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+[1.186s] byte-compiling /home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/__init__.py to __init__.cpython-310.pyc
+[1.186s] running install_data
+[1.187s] creating /home/ngo/ros2_ws/install/learning_tf2_py/share/ament_index
+[1.187s] creating /home/ngo/ros2_ws/install/learning_tf2_py/share/ament_index/resource_index
+[1.187s] creating /home/ngo/ros2_ws/install/learning_tf2_py/share/ament_index/resource_index/packages
+[1.187s] copying resource/learning_tf2_py -> /home/ngo/ros2_ws/install/learning_tf2_py/share/ament_index/resource_index/packages
+[1.187s] copying package.xml -> /home/ngo/ros2_ws/install/learning_tf2_py/share/learning_tf2_py
+[1.188s] creating /home/ngo/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.188s] copying launch/turtle_tf2_demo.launch.py -> /home/ngo/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.188s] copying launch/test_static_transform.launch.py -> /home/ngo/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.188s] running install_egg_info
+[1.192s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+[1.193s] running install_scripts
+[1.218s] Installing static_turtle_tf2_broadcaster script to /home/ngo/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.218s] Installing turtle_tf2_broadcaster script to /home/ngo/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.218s] Installing turtle_tf2_listener script to /home/ngo/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.219s] writing list of installed files to '/home/ngo/ros2_ws/build/learning_tf2_py/install.log'
+[1.273s] Invoked command in '/home/ngo/ros2_ws/src/learning_tf2_py' returned '0': AMENT_PREFIX_PATH=/home/ngo/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngo/ros2_ws/install/turtlesim:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ngo/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngo/ros2_ws/build/learning_tf2_py/prefix_override:/home/ngo/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:/home/ngo/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/ngo/ros2_ws/build/learning_tf2_py/build install --record /home/ngo/ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed

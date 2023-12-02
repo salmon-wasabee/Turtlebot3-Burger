@@ -1,0 +1,43 @@
+[1.806s] Invoking command in '/home/ngo/ros2_ws/src/action_tutorials_py': AMENT_PREFIX_PATH=/home/ngo/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngo/ros2_ws/install/action_tutorials_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ngo/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngo/ros2_ws/build/action_tutorials_py/prefix_override:/home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages:/home/ngo/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_tutorials_py build --build-base /home/ngo/ros2_ws/build/action_tutorials_py/build install --record /home/ngo/ros2_ws/build/action_tutorials_py/install.log --single-version-externally-managed
+[2.431s] running egg_info
+[2.432s] creating ../../build/action_tutorials_py/action_tutorials_py.egg-info
+[2.432s] writing ../../build/action_tutorials_py/action_tutorials_py.egg-info/PKG-INFO
+[2.433s] writing dependency_links to ../../build/action_tutorials_py/action_tutorials_py.egg-info/dependency_links.txt
+[2.433s] writing entry points to ../../build/action_tutorials_py/action_tutorials_py.egg-info/entry_points.txt
+[2.433s] writing requirements to ../../build/action_tutorials_py/action_tutorials_py.egg-info/requires.txt
+[2.433s] writing top-level names to ../../build/action_tutorials_py/action_tutorials_py.egg-info/top_level.txt
+[2.433s] writing manifest file '../../build/action_tutorials_py/action_tutorials_py.egg-info/SOURCES.txt'
+[2.437s] reading manifest file '../../build/action_tutorials_py/action_tutorials_py.egg-info/SOURCES.txt'
+[2.439s] writing manifest file '../../build/action_tutorials_py/action_tutorials_py.egg-info/SOURCES.txt'
+[2.439s] running build
+[2.439s] running build_py
+[2.439s] creating /home/ngo/ros2_ws/build/action_tutorials_py/build
+[2.439s] creating /home/ngo/ros2_ws/build/action_tutorials_py/build/lib
+[2.440s] creating /home/ngo/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[2.440s] copying action_tutorials_py/fibonacci_action_client.py -> /home/ngo/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[2.440s] copying action_tutorials_py/fibonacci_action_server.py -> /home/ngo/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[2.440s] copying action_tutorials_py/__init__.py -> /home/ngo/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py
+[2.440s] running install
+[2.440s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.440s]   warnings.warn(
+[2.441s] running install_lib
+[2.443s] creating /home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[2.443s] copying /home/ngo/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py/fibonacci_action_client.py -> /home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[2.443s] copying /home/ngo/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py/fibonacci_action_server.py -> /home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[2.444s] copying /home/ngo/ros2_ws/build/action_tutorials_py/build/lib/action_tutorials_py/__init__.py -> /home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py
+[2.444s] byte-compiling /home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py/fibonacci_action_client.py to fibonacci_action_client.cpython-310.pyc
+[2.445s] byte-compiling /home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py/fibonacci_action_server.py to fibonacci_action_server.cpython-310.pyc
+[2.447s] byte-compiling /home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py/__init__.py to __init__.cpython-310.pyc
+[2.448s] running install_data
+[2.449s] creating /home/ngo/ros2_ws/install/action_tutorials_py/share/ament_index
+[2.450s] creating /home/ngo/ros2_ws/install/action_tutorials_py/share/ament_index/resource_index
+[2.450s] creating /home/ngo/ros2_ws/install/action_tutorials_py/share/ament_index/resource_index/packages
+[2.450s] copying resource/action_tutorials_py -> /home/ngo/ros2_ws/install/action_tutorials_py/share/ament_index/resource_index/packages
+[2.450s] copying package.xml -> /home/ngo/ros2_ws/install/action_tutorials_py/share/action_tutorials_py
+[2.451s] running install_egg_info
+[2.455s] Copying ../../build/action_tutorials_py/action_tutorials_py.egg-info to /home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages/action_tutorials_py-0.32.0-py3.10.egg-info
+[2.456s] running install_scripts
+[2.496s] Installing fibonacci_action_client script to /home/ngo/ros2_ws/install/action_tutorials_py/lib/action_tutorials_py
+[2.496s] Installing fibonacci_action_server script to /home/ngo/ros2_ws/install/action_tutorials_py/lib/action_tutorials_py
+[2.497s] writing list of installed files to '/home/ngo/ros2_ws/build/action_tutorials_py/install.log'
+[2.578s] Invoked command in '/home/ngo/ros2_ws/src/action_tutorials_py' returned '0': AMENT_PREFIX_PATH=/home/ngo/ros2_ws/install/action_tutorials_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngo/ros2_ws/install/action_tutorials_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ngo/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngo/ros2_ws/build/action_tutorials_py/prefix_override:/home/ngo/ros2_ws/install/action_tutorials_py/lib/python3.10/site-packages:/home/ngo/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_tutorials_py build --build-base /home/ngo/ros2_ws/build/action_tutorials_py/build install --record /home/ngo/ros2_ws/build/action_tutorials_py/install.log --single-version-externally-managed

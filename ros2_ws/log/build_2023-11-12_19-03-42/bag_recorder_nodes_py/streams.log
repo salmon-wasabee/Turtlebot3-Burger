@@ -1,0 +1,22 @@
+[1.873s] Invoking command in '/home/ngo/ros2_ws/src/bag_recorder_nodes_py': PYTHONPATH=/home/ngo/ros2_ws/build/bag_recorder_nodes_py/prefix_override:/home/ngo/ros2_ws/install/bag_recorder_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bag_recorder_nodes_py build --build-base /home/ngo/ros2_ws/build/bag_recorder_nodes_py/build install --record /home/ngo/ros2_ws/build/bag_recorder_nodes_py/install.log --single-version-externally-managed
+[2.188s] running egg_info
+[2.189s] writing ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/PKG-INFO
+[2.189s] writing dependency_links to ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/dependency_links.txt
+[2.190s] writing entry points to ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/entry_points.txt
+[2.190s] writing requirements to ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/requires.txt
+[2.190s] writing top-level names to ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/top_level.txt
+[2.193s] reading manifest file '../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/SOURCES.txt'
+[2.193s] writing manifest file '../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/SOURCES.txt'
+[2.194s] running build
+[2.194s] running build_py
+[2.194s] running install
+[2.195s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.195s]   warnings.warn(
+[2.195s] running install_lib
+[2.196s] running install_data
+[2.197s] running install_egg_info
+[2.200s] removing '/home/ngo/ros2_ws/install/bag_recorder_nodes_py/lib/python3.10/site-packages/bag_recorder_nodes_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.201s] Copying ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info to /home/ngo/ros2_ws/install/bag_recorder_nodes_py/lib/python3.10/site-packages/bag_recorder_nodes_py-0.0.0-py3.10.egg-info
+[2.202s] running install_scripts
+[2.224s] writing list of installed files to '/home/ngo/ros2_ws/build/bag_recorder_nodes_py/install.log'
+[3.015s] Invoked command in '/home/ngo/ros2_ws/src/bag_recorder_nodes_py' returned '0': PYTHONPATH=/home/ngo/ros2_ws/build/bag_recorder_nodes_py/prefix_override:/home/ngo/ros2_ws/install/bag_recorder_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bag_recorder_nodes_py build --build-base /home/ngo/ros2_ws/build/bag_recorder_nodes_py/build install --record /home/ngo/ros2_ws/build/bag_recorder_nodes_py/install.log --single-version-externally-managed
