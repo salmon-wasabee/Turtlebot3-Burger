@@ -1,9 +1,0 @@
-/home/ngo/ros2_ws/build/my_interfaces/CMakeFiles/uninstall.dir
-/home/ngo/ros2_ws/build/my_interfaces/CMakeFiles/my_interfaces_uninstall.dir
-/home/ngo/ros2_ws/build/my_interfaces/CMakeFiles/test.dir
-/home/ngo/ros2_ws/build/my_interfaces/CMakeFiles/edit_cache.dir
-/home/ngo/ros2_ws/build/my_interfaces/CMakeFiles/rebuild_cache.dir
-/home/ngo/ros2_ws/build/my_interfaces/CMakeFiles/list_install_components.dir
-/home/ngo/ros2_ws/build/my_interfaces/CMakeFiles/install.dir
-/home/ngo/ros2_ws/build/my_interfaces/CMakeFiles/install/local.dir
-/home/ngo/ros2_ws/build/my_interfaces/CMakeFiles/install/strip.dir
