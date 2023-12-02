@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlebot3_drive[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle1[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacles[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[ 75%] Built target obstacle1
+[ 87%] Built target obstacle2
+[ 75%] Built target obstacles
+[100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[100%] Built target turtlebot3_drive

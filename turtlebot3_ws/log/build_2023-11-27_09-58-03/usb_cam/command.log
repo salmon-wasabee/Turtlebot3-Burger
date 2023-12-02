@@ -1,0 +1,1 @@
+Invoking command in '/home/ngo/turtlebot3_ws/build/usb_cam': /usr/bin/cmake /home/ngo/turtlebot3_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ngo/turtlebot3_ws/install/usb_cam

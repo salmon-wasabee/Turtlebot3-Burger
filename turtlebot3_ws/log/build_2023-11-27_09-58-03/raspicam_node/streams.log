@@ -1,0 +1,33 @@
+[0.169s] Invoking command in '/home/ngo/turtlebot3_ws/build/raspicam_node': /usr/bin/cmake /home/ngo/turtlebot3_ws/src/raspicam_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ngo/turtlebot3_ws/install/raspicam_node
+[0.231s] -- The C compiler identification is GNU 11.4.0
+[0.289s] -- The CXX compiler identification is GNU 11.4.0
+[0.295s] -- Detecting C compiler ABI info
+[0.364s] -- Detecting C compiler ABI info - done
+[0.371s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.372s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.461s] -- Detecting CXX compiler ABI info - done
+[0.476s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.477s] -- Detecting CXX compile features
+[0.478s] -- Detecting CXX compile features - done
+[0.497s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.497s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.497s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.498s]   CMake did not find one.
+[0.498s] 
+[0.498s]   Could not find a package configuration file provided by "catkin" with any
+[0.498s]   of the following names:
+[0.498s] 
+[0.498s]     catkinConfig.cmake
+[0.498s]     catkin-config.cmake
+[0.498s] 
+[0.498s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.498s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.499s]   provides a separate development package or SDK, be sure it has been
+[0.499s]   installed.
+[0.499s] 
+[0.499s] [0m
+[0.499s] -- Configuring incomplete, errors occurred!
+[0.499s] See also "/home/ngo/turtlebot3_ws/build/raspicam_node/CMakeFiles/CMakeOutput.log".
+[0.502s] Invoked command in '/home/ngo/turtlebot3_ws/build/raspicam_node' returned '1': /usr/bin/cmake /home/ngo/turtlebot3_ws/src/raspicam_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ngo/turtlebot3_ws/install/raspicam_node

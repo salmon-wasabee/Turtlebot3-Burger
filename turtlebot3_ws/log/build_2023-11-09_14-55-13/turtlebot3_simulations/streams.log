@@ -1,0 +1,20 @@
+[0.028s] Invoking command in '/home/ngo/turtlebot3_ws/build/turtlebot3_simulations': /usr/bin/cmake /home/ngo/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_simulations -DCMAKE_INSTALL_PREFIX=/home/ngo/turtlebot3_ws/install/turtlebot3_simulations
+[0.048s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[0.048s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.048s]   has asked CMake to find a package configuration file provided by
+[0.048s]   "ament_cmake", but CMake did not find one.
+[0.048s] 
+[0.048s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.048s]   any of the following names:
+[0.048s] 
+[0.048s]     ament_cmakeConfig.cmake
+[0.048s]     ament_cmake-config.cmake
+[0.048s] 
+[0.049s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.049s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.049s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.049s]   has been installed.
+[0.049s] 
+[0.049s] [0m
+[0.049s] -- Configuring incomplete, errors occurred!
+[0.049s] See also "/home/ngo/turtlebot3_ws/build/turtlebot3_simulations/CMakeFiles/CMakeOutput.log".

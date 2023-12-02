@@ -1,0 +1,2 @@
+Invoking command in '/home/ngo/turtlebot3_ws/build/raspicam_node': /usr/bin/cmake /home/ngo/turtlebot3_ws/src/raspicam_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ngo/turtlebot3_ws/install/raspicam_node
+Invoked command in '/home/ngo/turtlebot3_ws/build/raspicam_node' returned '1': /usr/bin/cmake /home/ngo/turtlebot3_ws/src/raspicam_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ngo/turtlebot3_ws/install/raspicam_node

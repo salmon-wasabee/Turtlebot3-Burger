@@ -1,0 +1,79 @@
+[0.082s] Invoking command in '/home/ngo/turtlebot3_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ngo/turtlebot3_ws/build/usb_cam -- -j8 -l8
+[0.141s] [ 14%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[0.143s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.146s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.146s] [ 28%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[0.836s] [ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[0.869s] [ 35%] Built target gtest_main
+[1.769s] [ 42%] [32m[1mLinking CXX shared library libusb_cam.so[0m
+[1.997s] [ 42%] Built target usb_cam
+[2.018s] [ 50%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o[0m
+[3.158s] [ 57%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.220s] [ 57%] Built target gtest
+[3.240s] [ 71%] [32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o[0m
+[3.240s] [ 71%] [32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o[0m
+[3.437s] [ 78%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[3.581s] [ 78%] Built target usb_cam_node_exe
+[3.925s] [ 85%] [32m[1mLinking CXX executable test_pixel_formats[0m
+[3.995s] [ 92%] [32m[1mLinking CXX executable test_usb_cam_utils[0m
+[4.110s] [ 92%] Built target test_pixel_formats
+[4.176s] [ 92%] Built target test_usb_cam_utils
+[8.739s] [100%] [32m[1mLinking CXX shared library libusb_cam_node.so[0m
+[9.090s] [100%] Built target usb_cam_node
+[9.114s] Invoked command in '/home/ngo/turtlebot3_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ngo/turtlebot3_ws/build/usb_cam -- -j8 -l8
+[9.195s] Invoking command in '/home/ngo/turtlebot3_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ngo/turtlebot3_ws/build/usb_cam
+[9.207s] -- Install configuration: ""
+[9.207s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+[9.207s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[9.208s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[9.209s] -- Set runtime path of "/home/ngo/turtlebot3_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""
+[9.209s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/lib/usb_cam/show_image.py
+[9.210s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/lib/libusb_cam.so
+[9.211s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/lib/libusb_cam_node.so
+[9.218s] -- Set runtime path of "/home/ngo/turtlebot3_ws/install/usb_cam/lib/libusb_cam_node.so" to ""
+[9.218s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include
+[9.218s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam
+[9.219s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/usb_cam.hpp
+[9.219s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/formats
+[9.219s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[9.219s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[9.219s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/formats/mono.hpp
+[9.220s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[9.220s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[9.220s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[9.220s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/formats/utils.hpp
+[9.220s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[9.220s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/formats/m420.hpp
+[9.220s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/conversions.hpp
+[9.220s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/constants.hpp
+[9.221s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/utils.hpp
+[9.221s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[9.221s] -- Up-to-date: /home/ngo/turtlebot3_ws/install/usb_cam/lib/libusb_cam_node.so
+[9.222s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/launch
+[9.222s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+[9.222s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[9.222s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+[9.222s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/config
+[9.223s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+[9.223s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+[9.223s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[9.223s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[9.223s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[9.224s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[9.224s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[9.224s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/environment/path.sh
+[9.224s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+[9.224s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/local_setup.bash
+[9.225s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/local_setup.sh
+[9.225s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+[9.225s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+[9.225s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/package.dsv
+[9.226s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[9.226s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[9.226s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[9.226s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.227s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.227s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[9.227s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[9.227s] -- Installing: /home/ngo/turtlebot3_ws/install/usb_cam/share/usb_cam/package.xml
+[9.229s] Invoked command in '/home/ngo/turtlebot3_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ngo/turtlebot3_ws/build/usb_cam

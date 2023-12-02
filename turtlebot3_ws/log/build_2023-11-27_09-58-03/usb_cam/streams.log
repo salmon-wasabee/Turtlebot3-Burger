@@ -1,0 +1,48 @@
+[0.102s] Invoking command in '/home/ngo/turtlebot3_ws/build/usb_cam': /usr/bin/cmake /home/ngo/turtlebot3_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ngo/turtlebot3_ws/install/usb_cam
+[0.162s] -- The C compiler identification is GNU 11.4.0
+[0.221s] -- The CXX compiler identification is GNU 11.4.0
+[0.228s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.306s] -- Detecting CXX compiler ABI info
+[0.379s] -- Detecting CXX compiler ABI info - done
+[0.388s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.388s] -- Detecting CXX compile features
+[0.389s] -- Detecting CXX compile features - done
+[0.389s] -- Searching required modules
+[0.394s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.394s] -- Checking for module 'libavcodec'
+[0.406s] --   Found libavcodec, version 58.134.100
+[0.439s] -- Checking for module 'libavutil'
+[0.451s] --   Found libavutil, version 56.70.100
+[0.480s] -- Checking for module 'libswscale'
+[0.490s] --   Found libswscale, version 5.9.100
+[0.518s] -- Checking for module 'libv4l2'
+[0.529s] --   Found libv4l2, version 1.22.1
+[0.562s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.562s] -- Found libavcodec: 58.134.100
+[0.562s] -- Found libavutil: 56.70.100
+[0.562s] -- Found libswscale: 5.9.100
+[0.563s] -- Found OpenCV: 4.5.4
+[0.563s] -- Found Video4Linux kernel library: 1.22.1
+[0.574s] [31mCMake Error at CMakeLists.txt:31 (find_package):
+[0.574s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.574s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.574s]   CMake did not find one.
+[0.574s] 
+[0.574s]   Could not find a package configuration file provided by "catkin" with any
+[0.574s]   of the following names:
+[0.575s] 
+[0.575s]     catkinConfig.cmake
+[0.575s]     catkin-config.cmake
+[0.575s] 
+[0.575s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.575s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.575s]   provides a separate development package or SDK, be sure it has been
+[0.575s]   installed.
+[0.575s] 
+[0.576s] [0m
+[0.576s] -- Configuring incomplete, errors occurred!
+[0.576s] See also "/home/ngo/turtlebot3_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".
