@@ -44,10 +44,10 @@ goal.target_pose.pose.orientation.w = 1.0
 # Send the goal to MoveBaseAction server
 client.send_goal(goal)
 
-# Wait for the result
+## Wait for the result
 client.wait_for_result()
 
-# If the robot reaches the target, stop the robot
+## If the robot reaches the target, stop the robot
 if client.get_state() == GoalStatus.SUCCEEDED:
     vel_msg = Twist()
     pub.publish(vel_msg)
