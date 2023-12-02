@@ -1,0 +1,25 @@
+[2.251s] Invoking command in '/home/ngo/ros2_ws/src/my_package': PYTHONPATH=/home/ngo/ros2_ws/build/my_package/prefix_override:/home/ngo/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ngo/ros2_ws/build/my_package/build install --record /home/ngo/ros2_ws/build/my_package/install.log --single-version-externally-managed
+[2.723s] running egg_info
+[2.725s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[2.725s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[2.725s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[2.725s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[2.726s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[2.730s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.731s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.732s] running build
+[2.732s] running build_py
+[2.733s] running install
+[2.733s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.734s]   warnings.warn(
+[2.735s] running install_lib
+[2.738s] byte-compiling /home/ngo/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/server_time.py to server_time.cpython-310.pyc
+[2.738s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (server_time.py, line 20)
+[2.738s] running install_data
+[2.739s] running install_egg_info
+[2.744s] removing '/home/ngo/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.745s] Copying ../../build/my_package/my_package.egg-info to /home/ngo/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[2.746s] running install_scripts
+[2.790s] Installing my_node script to /home/ngo/ros2_ws/install/my_package/lib/my_package
+[2.790s] writing list of installed files to '/home/ngo/ros2_ws/build/my_package/install.log'
+[3.263s] Invoked command in '/home/ngo/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/ngo/ros2_ws/build/my_package/prefix_override:/home/ngo/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ngo/ros2_ws/build/my_package/build install --record /home/ngo/ros2_ws/build/my_package/install.log --single-version-externally-managed

@@ -1,0 +1,2 @@
+Invoking command in '/home/ngo/ros2_ws/build/usb_cam': /usr/bin/cmake /home/ngo/ros2_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ngo/ros2_ws/install/usb_cam
+Invoked command in '/home/ngo/ros2_ws/build/usb_cam' returned '1': /usr/bin/cmake /home/ngo/ros2_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ngo/ros2_ws/install/usb_cam

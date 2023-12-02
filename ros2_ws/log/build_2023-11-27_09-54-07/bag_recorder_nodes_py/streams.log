@@ -1,0 +1,34 @@
+[2.177s] Invoking command in '/home/ngo/ros2_ws/src/bag_recorder_nodes_py': PYTHONPATH=/home/ngo/ros2_ws/build/bag_recorder_nodes_py/prefix_override:/home/ngo/ros2_ws/install/bag_recorder_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bag_recorder_nodes_py build --build-base /home/ngo/ros2_ws/build/bag_recorder_nodes_py/build install --record /home/ngo/ros2_ws/build/bag_recorder_nodes_py/install.log --single-version-externally-managed
+[2.418s] running egg_info
+[2.435s] writing ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/PKG-INFO
+[2.435s] writing dependency_links to ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/dependency_links.txt
+[2.436s] writing requirements to ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/requires.txt
+[2.436s] writing top-level names to ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/top_level.txt
+[2.475s] reading manifest file '../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/SOURCES.txt'
+[2.476s] writing manifest file '../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/SOURCES.txt'
+[2.476s] running build
+[2.476s] running build_py
+[2.476s] copying bag_recorder_nodes_py/__init__.py -> /home/ngo/ros2_ws/build/bag_recorder_nodes_py/build/lib/bag_recorder_nodes_py
+[2.477s] running install
+[2.477s] /home/ngo/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.477s] !!
+[2.477s] 
+[2.478s]         ********************************************************************************
+[2.478s]         Please avoid running ``setup.py`` directly.
+[2.478s]         Instead, use pypa/build, pypa/installer or other
+[2.478s]         standards-based tools.
+[2.478s] 
+[2.479s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.479s]         ********************************************************************************
+[2.479s] 
+[2.479s] !!
+[2.479s]   self.initialize_options()
+[2.482s] running install_lib
+[2.501s] running install_data
+[2.520s] copying resource/bag_recorder_nodes_py -> /home/ngo/ros2_ws/install/bag_recorder_nodes_py/share/ament_index/resource_index/packages
+[2.520s] copying package.xml -> /home/ngo/ros2_ws/install/bag_recorder_nodes_py/share/bag_recorder_nodes_py
+[2.520s] running install_egg_info
+[2.541s] removing '/home/ngo/ros2_ws/install/bag_recorder_nodes_py/lib/python3.10/site-packages/bag_recorder_nodes_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.541s] Copying ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info to /home/ngo/ros2_ws/install/bag_recorder_nodes_py/lib/python3.10/site-packages/bag_recorder_nodes_py-0.0.0-py3.10.egg-info
+[2.541s] running install_scripts
+[2.718s] writing list of installed files to '/home/ngo/ros2_ws/build/bag_recorder_nodes_py/install.log'

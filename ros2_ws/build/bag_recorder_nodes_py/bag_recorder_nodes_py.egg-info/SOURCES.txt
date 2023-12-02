@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/PKG-INFO
+../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/SOURCES.txt
+../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/dependency_links.txt
+../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/requires.txt
+../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/top_level.txt
+../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/zip-safe
+bag_recorder_nodes_py/__init__.py
+resource/bag_recorder_nodes_py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
