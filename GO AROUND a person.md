@@ -1,12 +1,9 @@
 To make the TurtleBot go around a person once it detects the person in its projected path, you will need to implement a path planning algorithm. You can use the A* algorithm which is a common path planning algorithm. Here is a step-by-step guide to achieve this:
 
-    Detection of the Person: You have already implemented this using YOLO. When the person is detected, you can retrieve the bounding box coordinates (x1, y1, x2, y2) of the detected person.
-
-    Mapping the Person's Position to the Robot's World: The bounding box coordinates are in the image frame, you'll need to map these coordinates to the robot's world. You can do this using the depth data from the depth sensor (if available) or estimating the distance based on the size of the bounding box. The position of the person can be represented as an obstacle in the robot's world map.
-
-    Path Planning: Use a path planning algorithm such as the A* algorithm to plan a path around the person. The A* algorithm finds the shortest path from the robot's current position to the target position, considering the person as an obstacle. You can use a library such as ROS's move_base package to accomplish this 1.
-
-    Moving the Robot: Once the path is planned, you can command the robot to follow the planned path. You can do this by publishing velocity commands to the appropriate topic, typically /cmd_vel.
+Detection of the Person: You have already implemented this using YOLO. When the person is detected, you can retrieve the bounding box coordinates (x1, y1, x2, y2) of the detected person.
+Mapping the Person's Position to the Robot's World: The bounding box coordinates are in the image frame, you'll need to map these coordinates to the robot's world. You can do this using the depth data from the depth sensor (if available) or estimating the distance based on the size of the bounding box. The position of the person can be represented as an obstacle in the robot's world map.
+Path Planning: Use a path planning algorithm such as the A* algorithm to plan a path around the person. The A* algorithm finds the shortest path from the robot's current position to the target position, considering the person as an obstacle. You can use a library such as ROS's move_base package to accomplish this 1.
+Moving the Robot: Once the path is planned, you can command the robot to follow the planned path. You can do this by publishing velocity commands to the appropriate topic, typically /cmd_vel.
 
 Here is a simple pseudo code to illustrate the above steps:
 
